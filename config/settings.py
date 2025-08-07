@@ -27,6 +27,9 @@ class ToolsConfig(BaseModel):
         "unit_converter",
         "task_manager",
         "text_analyzer"
+        "calendar_reader",   # Nome da ferramenta para listar compromissos
+        "calendar_scheduler",# Nome da ferramenta para agendar compromissos
+        "calendar_deleter"   # Nome da ferramenta para deletar compromissos
     ])
     tools_directory: str = Field(default="tools")
     auto_discovery: bool = Field(default=True)

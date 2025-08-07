@@ -3,6 +3,11 @@ pydantic-ai>=0.0.14
 openai>=1.0.0
 python-dotenv>=1.0.0
 
+# Google Calendar API
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.2.0
+
 # Optional dependencies for advanced features
 requests>=2.31.0
 asyncio-mqtt>=0.16.0
@@ -16,3 +21,6 @@ flake8>=6.0.0
 
 # Logging
 colorlog>=6.7.0
+
+# Timezone support
+pytz>=2023.3
